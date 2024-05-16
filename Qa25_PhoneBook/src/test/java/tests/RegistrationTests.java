@@ -43,17 +43,70 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().submitRegistration();
 
         Assert.assertTrue(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isNoContactsHereDisplayed());
+
+    }
+
+
+    @Test(description = "Bug report #12569, Fixed")
+    public void registrationWrongEmail(){
+
+
+
+        User user = new User()
+                //   .setFirstName("Lisa")
+                //  .setLastName("Snow")
+                .setEmail("snowgmail.com")
+                .setPassword("Ssnow123456$");
+
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().submitRegistration();
+
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password format"));
+
+    }
+
+
+    @Test(description = "Bug report #12569, Fixed")
+    public void registrationWrongPassword(){
+
+
+
+        User user = new User()
+                //   .setFirstName("Lisa")
+                //  .setLastName("Snow")
+                .setEmail("snow@gmail.com")
+                .setPassword("Ssnow123456");
+
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().submitRegistration();
+
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password format"));
 
     }
 
 
 
+    @Test(description = "Bug report #12569, Fixed")
+    public void registrationExistUser(){
 
 
 
+        User user = new User()
+                //   .setFirstName("Lisa")
+                //  .setLastName("Snow")
+                .setEmail("maragmail.com")
+                .setPassword("Mmar123456$");
 
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().submitRegistration();
 
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("User already exist"));
 
+    }
 
 
 
