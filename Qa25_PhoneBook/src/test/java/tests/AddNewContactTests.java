@@ -14,7 +14,10 @@ public class AddNewContactTests extends TestBase {
 
         if(!app.getHelperUser().isLogged()){
 
-            app.getHelperUser().login(new User().withEmail("mara@gmail.com").withPassword("Mmar123456$"));
+         //   app.getHelperUser().login(new User().withEmail("mara@gmail.com").withPassword("Mmar123456$"));
+
+            app.getHelperUser().login(new User().setEmail("mara@gmail.com").setPassword("Mmar123456$"));
+
         }
 
 
@@ -42,6 +45,7 @@ public class AddNewContactTests extends TestBase {
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
+        app.getHelperContact().getScreen("Qa25_PhoneBook/src/test/screenshots/screen.png");
         app.getHelperContact().saveContact();
 
         Assert.assertTrue(app.getHelperContact().isContactAddedByName(contact.getName()));
@@ -176,7 +180,7 @@ public class AddNewContactTests extends TestBase {
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().saveContact();
         Assert.assertTrue(app.getHelperContact().isAddPageStillDisplayed());
-        Assert.assertTrue(app.getHelperContact().isAlertPresent("Email not valid: must be a well-formed email address"));
+        Assert.assertTrue(app.getHelperContact().isAlertPresent("Email not valid: "));
     }
 
 

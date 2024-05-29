@@ -97,7 +97,7 @@ public class RegistrationTests extends TestBase {
         User user = new User()
                 //   .setFirstName("Lisa")
                 //  .setLastName("Snow")
-                .setEmail("maragmail.com")
+                .setEmail("mara@gmail.com")
                 .setPassword("Mmar123456$");
 
         app.getHelperUser().openRegistrationForm();

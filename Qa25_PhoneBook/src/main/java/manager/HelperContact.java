@@ -92,4 +92,46 @@ public class HelperContact extends HelperBase {
 
 
     }
+
+    public int removeOneContact() {
+
+        int before = countOfContacts();
+
+
+        removeContact();
+
+
+
+        int after = countOfContacts();
+
+        return before-after;
+
+
+
+
+    }
+
+    private void removeContact() {
+
+        click(By.className("contact-item_card__2SOIM"));
+        click(By.xpath("//button[text()='Remove']"));
+        pause(500);
+
+    }
+
+    private int countOfContacts() {
+
+
+
+        return wd.findElements(By.className("contact-item_card__2SOIM")).size();
+    }
+
+    public void removeAllContacts() {
+
+        while (countOfContacts()!=0){
+            removeContact();
+        }
+
+
+    }
 }
