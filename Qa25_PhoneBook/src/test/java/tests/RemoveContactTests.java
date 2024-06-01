@@ -3,12 +3,13 @@ package tests;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RemoveContactTests extends TestBase {
 
 
-    @BeforeClass
+    @BeforeMethod
     public void preCondition() {
 
         if (!app.getHelperUser().isLogged()) {
@@ -16,7 +17,7 @@ public class RemoveContactTests extends TestBase {
            //   app.getHelperUser().login(new User().withEmail("mara@gmail.com").withPassword("Mmar123456$"));
 
             app.getHelperUser().login(new User().setEmail("mara@gmail.com").setPassword("Mmar123456$"));
-
+            app.getHelperContact().providerContacts();
 
         }
     }
