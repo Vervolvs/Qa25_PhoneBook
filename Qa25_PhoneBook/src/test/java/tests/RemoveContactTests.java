@@ -16,10 +16,12 @@ public class RemoveContactTests extends TestBase {
 
            //   app.getHelperUser().login(new User().withEmail("mara@gmail.com").withPassword("Mmar123456$"));
 
-            app.getHelperUser().login(new User().setEmail("mara@gmail.com").setPassword("Mmar123456$"));
-            app.getHelperContact().providerContacts();
+            app.getHelperUser().login(new User().setEmail("butranov@gmail.com").setPassword("Mmar123456$"));
+
 
         }
+
+        app.getHelperContact().providerContacts();
     }
 
         @Test

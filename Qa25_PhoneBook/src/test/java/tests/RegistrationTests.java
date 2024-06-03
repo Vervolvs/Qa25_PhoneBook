@@ -38,14 +38,22 @@ public class RegistrationTests extends TestBase {
                 .setEmail("snow"+z+"@gmail.com")
                 .setPassword("Ssnow123456$");
 
+        logger.info("Tests run with data: --->"+user.toString());
         app.getHelperUser().openRegistrationForm();
+        logger.info("openRegistrationForm invoked");
         app.getHelperUser().fillRegistrationForm(user);
+        logger.info("fillRegistrationForm invoked");
         app.getHelperUser().submitRegistration();
+        logger.info("submitLogin invoked");
+
 
         Assert.assertTrue(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isNoContactsHereDisplayed());
 
     }
+
+
+
 
 
     @Test(description = "Bug report #12569, Fixed")

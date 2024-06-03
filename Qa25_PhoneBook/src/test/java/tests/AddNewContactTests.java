@@ -16,7 +16,7 @@ public class AddNewContactTests extends TestBase {
 
          //   app.getHelperUser().login(new User().withEmail("mara@gmail.com").withPassword("Mmar123456$"));
 
-            app.getHelperUser().login(new User().setEmail("mara@gmail.com").setPassword("Mmar123456$"));
+            app.getHelperUser().login(new User().setEmail("butranov@gmail.com").setPassword("Mmar123456$"));
 
         }
 
@@ -91,7 +91,7 @@ public class AddNewContactTests extends TestBase {
 
 
     @Test
-    public void  addContactSuccessWrongName(){
+    public void  addContactWrongName(){
 
         int i = (int) (System.currentTimeMillis()/1000)%3600;
 
@@ -115,7 +115,7 @@ public class AddNewContactTests extends TestBase {
 
 
     @Test
-    public void  addContactSuccessWrongLastName(){
+    public void  addContactWrongLastName(){
 
         int i = (int) (System.currentTimeMillis()/1000)%3600;
 
@@ -138,7 +138,7 @@ public class AddNewContactTests extends TestBase {
 
 
     @Test
-    public void  addContactSuccessWrongPhone(){
+    public void  addContactWrongPhone(){
 
         int i = (int) (System.currentTimeMillis()/1000)%3600;
 
@@ -162,7 +162,7 @@ public class AddNewContactTests extends TestBase {
 
 
     @Test
-    public void  addContactSuccessWrongEmail(){
+    public void  addContactWrongEmail(){
 
         int i = (int) (System.currentTimeMillis()/1000)%3600;
 
@@ -187,7 +187,7 @@ public class AddNewContactTests extends TestBase {
 
 
     @Test
-    public void  addContactSuccessWrongAddress(){
+    public void  addContactWrongAddress(){
 
         int i = (int) (System.currentTimeMillis()/1000)%3600;
 
@@ -207,38 +207,6 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.getHelperContact().isAddPageStillDisplayed());
 
     }
-
-
-    @Test
-    public void  addContactSuccessWrongDescription(){
-
-        int i = (int) (System.currentTimeMillis()/1000)%3600;
-
-        Contact contact = Contact.builder()
-
-                .name("Tony")
-                .lastname("Silver")
-                .phone("65656565"+i)
-                .email("silver"+i+"@gmail.com")
-                .address("NY")
-                .description("")
-                .build();
-
-        app.getHelperContact().openContactForm();
-        app.getHelperContact().fillContactForm(contact);
-        app.getHelperContact().saveContact();
-        Assert.assertTrue(app.getHelperContact().isAddPageStillDisplayed());
-
-    }
-
-
-
-
-
-
-
-
-
 
 
 

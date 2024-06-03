@@ -1,0 +1,32 @@
+17:44:01.479 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+17:44:02.191 INFO  manager.ApplicationManager - The link ---->https://telranedu.web.app/home
+17:44:02.233 INFO  tests.TestBase - Name of method -->registrationSuccess
+17:44:02.234 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+17:44:07.303 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+17:44:07.307 INFO  tests.TestBase - Tests run with data: --->User{firstName='null', lastName='null', email='snow2647@gmail.com', password='Ssnow123456$'}
+17:44:07.311 INFO  manager.ApplicationManager - Before find element:By.xpath: //*[@href='/login']
+17:44:07.337 INFO  manager.ApplicationManager - element found success:By.xpath: //*[@href='/login']
+17:44:07.348 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (c0a116abcbe3b12841b2afed01db7860)] -> xpath: //*[@href='/login']]
+17:44:07.459 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (c0a116abcbe3b12841b2afed01db7860)] -> xpath: //*[@href='/login']]
+17:44:07.460 INFO  tests.TestBase - openRegistrationForm invoked
+17:44:07.461 INFO  manager.ApplicationManager - Before find element:By.name: email
+17:44:07.488 INFO  manager.ApplicationManager - element found success:By.name: email
+17:44:07.488 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (c0a116abcbe3b12841b2afed01db7860)] -> name: email]
+17:44:07.561 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (c0a116abcbe3b12841b2afed01db7860)] -> name: email]
+17:44:07.864 INFO  manager.ApplicationManager - Before find element:By.name: password
+17:44:07.880 INFO  manager.ApplicationManager - element found success:By.name: password
+17:44:07.881 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (c0a116abcbe3b12841b2afed01db7860)] -> name: password]
+17:44:07.927 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (c0a116abcbe3b12841b2afed01db7860)] -> name: password]
+17:44:08.073 INFO  tests.TestBase - fillRegistrationForm invoked
+17:44:08.074 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Registration']
+17:44:08.101 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Registration']
+17:44:08.102 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (c0a116abcbe3b12841b2afed01db7860)] -> xpath: //button[text()='Registration']]
+17:44:08.142 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (c0a116abcbe3b12841b2afed01db7860)] -> xpath: //button[text()='Registration']]
+17:44:08.142 INFO  tests.TestBase - submitLogin invoked
+17:44:08.142 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+17:44:09.463 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+17:44:09.481 INFO  manager.ApplicationManager - Before find element:By.cssSelector: .contact-page_message__2qafk>h1
+17:44:09.899 INFO  manager.ApplicationManager - element found success:By.cssSelector: .contact-page_message__2qafk>h1
+17:44:09.933 INFO  manager.ApplicationManager - get text from the element with text:No Contacts here!
+17:44:09.944 INFO  manager.ApplicationManager - got the text successful
+17:44:09.947 INFO  tests.TestBase - ********************************************************************
