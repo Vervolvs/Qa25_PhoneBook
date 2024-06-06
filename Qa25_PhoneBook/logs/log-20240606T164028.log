@@ -1,0 +1,55 @@
+16:40:29.593 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+16:40:30.451 INFO  manager.ApplicationManager - The link ---->https://telranedu.web.app/home
+16:40:30.494 INFO  tests.TestBase - Name of method -->loginSuccessModel
+16:40:30.495 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+16:40:35.589 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+16:40:35.592 INFO  tests.TestBase - Test data --->: User{firstName='null', lastName='null', email='mara@gmail.com', password='Mmar123456$'}
+16:40:35.595 INFO  manager.ApplicationManager - Before find element:By.cssSelector: a[href='/login']
+16:40:35.637 INFO  manager.ApplicationManager - element found success:By.cssSelector: a[href='/login']
+16:40:35.646 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> css selector: a[href='/login']]
+16:40:35.719 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> css selector: a[href='/login']]
+16:40:35.719 INFO  manager.ApplicationManager - Before find element:By.name: email
+16:40:35.746 INFO  manager.ApplicationManager - element found success:By.name: email
+16:40:35.746 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> name: email]
+16:40:35.782 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> name: email]
+16:40:35.919 INFO  manager.ApplicationManager - Before find element:By.xpath: //input[last()]
+16:40:35.945 INFO  manager.ApplicationManager - element found success:By.xpath: //input[last()]
+16:40:35.945 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //input[last()]]
+16:40:35.979 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //input[last()]]
+16:40:36.048 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Login']
+16:40:36.069 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Login']
+16:40:36.070 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //button[text()='Login']]
+16:40:36.103 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //button[text()='Login']]
+16:40:36.104 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+16:40:37.144 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+16:40:37.147 INFO  tests.TestBase - Assert check is Element button 'Sign out' present
+16:40:37.150 INFO  tests.TestBase - ********************************************************************
+16:40:37.151 INFO  tests.TestBase - Name of method -->loginSuccessModel
+16:40:37.151 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+16:40:37.168 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+16:40:37.169 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+16:40:37.185 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+16:40:37.185 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //button[text()='Sign Out']]
+16:40:37.220 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //button[text()='Sign Out']]
+16:40:37.221 INFO  tests.TestBase - Before method finish logout
+16:40:37.221 INFO  tests.TestBase - Test data --->: User{firstName='null', lastName='null', email='butranov@gmail.com', password='Mmar123456$'}
+16:40:37.221 INFO  manager.ApplicationManager - Before find element:By.cssSelector: a[href='/login']
+16:40:37.244 INFO  manager.ApplicationManager - element found success:By.cssSelector: a[href='/login']
+16:40:37.244 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> css selector: a[href='/login']]
+16:40:37.281 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> css selector: a[href='/login']]
+16:40:37.281 INFO  manager.ApplicationManager - Before find element:By.name: email
+16:40:37.293 INFO  manager.ApplicationManager - element found success:By.name: email
+16:40:37.293 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> name: email]
+16:40:37.334 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> name: email]
+16:40:37.472 INFO  manager.ApplicationManager - Before find element:By.xpath: //input[last()]
+16:40:37.493 INFO  manager.ApplicationManager - element found success:By.xpath: //input[last()]
+16:40:37.493 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //input[last()]]
+16:40:37.537 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //input[last()]]
+16:40:37.668 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Login']
+16:40:37.680 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Login']
+16:40:37.680 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //button[text()='Login']]
+16:40:37.714 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (5b75be69acf9821a7e134f3b73a550c3)] -> xpath: //button[text()='Login']]
+16:40:37.714 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+16:40:38.041 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+16:40:38.042 INFO  tests.TestBase - Assert check is Element button 'Sign out' present
+16:40:38.043 INFO  tests.TestBase - ********************************************************************

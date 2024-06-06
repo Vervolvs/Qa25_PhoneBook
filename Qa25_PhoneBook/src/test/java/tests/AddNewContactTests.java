@@ -1,5 +1,6 @@
 package tests;
 
+import manager.DataProviderContacts;
 import models.Contact;
 import models.User;
 import org.testng.Assert;
@@ -28,20 +29,20 @@ public class AddNewContactTests extends TestBase {
     }
 
 
-    @Test
-    public void  addContactSuccessAllFields(){
+    @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderContacts.class)
+    public void  addContactSuccessAllFields(Contact contact){
 
         int i = (int) (System.currentTimeMillis()/1000)%3600;
 
-        Contact contact = Contact.builder()
+     //   Contact contact = Contact.builder()
 
-                .name("Tony"+i)
-                .lastname("Silver")
-                .phone("65656565"+i)
-                .email("silver"+i+"@gmail.com")
-                .address("NY")
-                .description("The best")
-                .build();
+      //          .name("Tony"+i)
+      //          .lastname("Silver")
+       //         .phone("65656565"+i)
+       //         .email("silver"+i+"@gmail.com")
+       //         .address("NY")
+       //         .description("The best")
+       //         .build();
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
@@ -137,20 +138,20 @@ public class AddNewContactTests extends TestBase {
     }
 
 
-    @Test
-    public void  addContactWrongPhone(){
+    @Test(dataProvider = "contactWrongPhone",dataProviderClass = DataProviderContacts.class)
+    public void  addContactWrongPhone(Contact contact){
 
         int i = (int) (System.currentTimeMillis()/1000)%3600;
 
-        Contact contact = Contact.builder()
+     //   Contact contact = Contact.builder()
 
-                .name("Tony")
-                .lastname("Silver")
-                .phone("")
-                .email("silver@gmail.com")
-                .address("NY")
+      //          .name("Tony")
+      //          .lastname("Silver")
+      //          .phone("")
+      //          .email("silver@gmail.com")
+      //          .address("NY")
 
-                .build();
+      //          .build();
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
