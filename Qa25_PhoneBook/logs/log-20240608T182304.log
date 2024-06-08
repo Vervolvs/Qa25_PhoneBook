@@ -1,0 +1,84 @@
+18:23:06.301 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:23:06.963 INFO  manager.ApplicationManager - The link ---->https://telranedu.web.app/home
+18:23:06.986 INFO  tests.TestBase - Name of method -->loginSuccessModelDP
+18:23:06.987 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+18:23:12.019 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+18:23:12.021 INFO  tests.TestBase - Test data --->: User{firstName='null', lastName='null', email='mara@gmail.com', password='Mmar123456$'}
+18:23:12.024 INFO  manager.ApplicationManager - Before find element:By.cssSelector: a[href='/login']
+18:23:12.044 INFO  manager.ApplicationManager - element found success:By.cssSelector: a[href='/login']
+18:23:12.051 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> css selector: a[href='/login']]
+18:23:12.114 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> css selector: a[href='/login']]
+18:23:12.114 INFO  manager.ApplicationManager - Before find element:By.name: email
+18:23:12.130 INFO  manager.ApplicationManager - element found success:By.name: email
+18:23:12.130 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> name: email]
+18:23:12.167 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> name: email]
+18:23:12.315 INFO  manager.ApplicationManager - Before find element:By.xpath: //input[last()]
+18:23:12.327 INFO  manager.ApplicationManager - element found success:By.xpath: //input[last()]
+18:23:12.328 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //input[last()]]
+18:23:12.360 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //input[last()]]
+18:23:12.490 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Login']
+18:23:12.521 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Login']
+18:23:12.521 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Login']]
+18:23:12.579 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Login']]
+18:23:12.579 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+18:23:13.628 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+18:23:13.631 INFO  tests.TestBase - Assert check is Element button 'Sign out' present
+18:23:13.634 INFO  tests.TestBase - ********************************************************************
+18:23:13.635 INFO  tests.TestBase - Name of method -->loginSuccessModelDP
+18:23:13.635 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+18:23:13.646 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+18:23:13.646 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+18:23:13.661 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+18:23:13.661 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Sign Out']]
+18:23:13.690 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Sign Out']]
+18:23:13.691 INFO  tests.TestBase - Before method finish logout
+18:23:13.691 INFO  tests.TestBase - Test data --->: User{firstName='null', lastName='null', email='sonya@gmail.com', password='Ss12345$'}
+18:23:13.691 INFO  manager.ApplicationManager - Before find element:By.cssSelector: a[href='/login']
+18:23:13.704 INFO  manager.ApplicationManager - element found success:By.cssSelector: a[href='/login']
+18:23:13.704 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> css selector: a[href='/login']]
+18:23:13.735 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> css selector: a[href='/login']]
+18:23:13.735 INFO  manager.ApplicationManager - Before find element:By.name: email
+18:23:13.754 INFO  manager.ApplicationManager - element found success:By.name: email
+18:23:13.755 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> name: email]
+18:23:13.784 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> name: email]
+18:23:13.859 INFO  manager.ApplicationManager - Before find element:By.xpath: //input[last()]
+18:23:13.875 INFO  manager.ApplicationManager - element found success:By.xpath: //input[last()]
+18:23:13.875 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //input[last()]]
+18:23:13.913 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //input[last()]]
+18:23:14.029 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Login']
+18:23:14.044 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Login']
+18:23:14.044 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Login']]
+18:23:14.074 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Login']]
+18:23:14.074 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+18:23:14.367 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+18:23:14.367 INFO  tests.TestBase - Assert check is Element button 'Sign out' present
+18:23:14.369 INFO  tests.TestBase - ********************************************************************
+18:23:14.372 INFO  tests.TestBase - Name of method -->loginSuccessModelDP
+18:23:14.373 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+18:23:14.397 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+18:23:14.397 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+18:23:14.429 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+18:23:14.429 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Sign Out']]
+18:23:14.507 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Sign Out']]
+18:23:14.508 INFO  tests.TestBase - Before method finish logout
+18:23:14.509 INFO  tests.TestBase - Test data --->: User{firstName='null', lastName='null', email='mara@gmail.com', password='Mmar123456$'}
+18:23:14.510 INFO  manager.ApplicationManager - Before find element:By.cssSelector: a[href='/login']
+18:23:14.541 INFO  manager.ApplicationManager - element found success:By.cssSelector: a[href='/login']
+18:23:14.542 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> css selector: a[href='/login']]
+18:23:14.595 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> css selector: a[href='/login']]
+18:23:14.596 INFO  manager.ApplicationManager - Before find element:By.name: email
+18:23:14.604 INFO  manager.ApplicationManager - element found success:By.name: email
+18:23:14.605 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> name: email]
+18:23:14.655 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> name: email]
+18:23:14.771 INFO  manager.ApplicationManager - Before find element:By.xpath: //input[last()]
+18:23:14.793 INFO  manager.ApplicationManager - element found success:By.xpath: //input[last()]
+18:23:14.793 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //input[last()]]
+18:23:14.831 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //input[last()]]
+18:23:14.948 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Login']
+18:23:14.965 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Login']
+18:23:14.965 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Login']]
+18:23:14.995 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (2f9ad1a548ce82989c0ec70758f73d82)] -> xpath: //button[text()='Login']]
+18:23:14.995 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+18:23:15.280 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+18:23:15.280 INFO  tests.TestBase - Assert check is Element button 'Sign out' present
+18:23:15.282 INFO  tests.TestBase - ********************************************************************
