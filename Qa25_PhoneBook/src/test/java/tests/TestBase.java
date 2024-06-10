@@ -2,6 +2,7 @@ package tests;
 
 
 import manager.ApplicationManager;
+import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
@@ -21,7 +22,7 @@ public class TestBase {
 
 
 
-  static ApplicationManager app = new ApplicationManager();
+  static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
 
   @BeforeMethod
@@ -54,7 +55,7 @@ public class TestBase {
     public void tearDown(){
 
 
-    //app.stop();
+    app.stop();
 
 
 
