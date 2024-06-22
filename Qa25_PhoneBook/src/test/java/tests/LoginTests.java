@@ -16,7 +16,7 @@ public class LoginTests extends TestBase {
 
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preConditions(){
     //if SignOut is present -----> logout
     if (app.getHelperUser().isLogged()){
@@ -93,7 +93,7 @@ public class LoginTests extends TestBase {
 
 
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail(){
         logger.info("Test data --->: email: 'maragmail.com' & password: 'Mmar123456$'");
         app.getHelperUser().openLoginRegistrationForm();

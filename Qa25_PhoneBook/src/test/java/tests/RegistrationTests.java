@@ -10,7 +10,7 @@ import java.util.Random;
 public class RegistrationTests extends TestBase {
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preConditions() {
         //if SignOut is present -----> logout
         if (app.getHelperUser().isLogged()) {
@@ -76,7 +76,7 @@ public class RegistrationTests extends TestBase {
     }
 
 
-    @Test(description = "Bug report #12569, Fixed")
+    @Test(description = "Bug report #12569, Fixed", groups = {"smoke"})
     public void registrationWrongPassword(){
 
 

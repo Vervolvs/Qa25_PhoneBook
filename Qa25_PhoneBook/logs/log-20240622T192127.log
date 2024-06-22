@@ -1,0 +1,109 @@
+19:21:29.539 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+19:21:30.564 INFO  manager.ApplicationManager - The link ---->https://telranedu.web.app/home
+19:21:30.594 INFO  tests.TestBase - Name of method -->loginWrongEmail
+19:21:30.598 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+19:21:35.639 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+19:21:35.642 INFO  tests.TestBase - Test data --->: email: 'maragmail.com' & password: 'Mmar123456$'
+19:21:35.644 INFO  manager.ApplicationManager - Before find element:By.cssSelector: a[href='/login']
+19:21:35.678 INFO  manager.ApplicationManager - element found success:By.cssSelector: a[href='/login']
+19:21:35.686 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: a[href='/login']]
+19:21:35.787 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: a[href='/login']]
+19:21:35.787 INFO  manager.ApplicationManager - Before find element:By.name: email
+19:21:35.815 INFO  manager.ApplicationManager - element found success:By.name: email
+19:21:35.815 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> name: email]
+19:21:35.875 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> name: email]
+19:21:36.112 INFO  manager.ApplicationManager - Before find element:By.xpath: //input[last()]
+19:21:36.149 INFO  manager.ApplicationManager - element found success:By.xpath: //input[last()]
+19:21:36.149 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //input[last()]]
+19:21:36.241 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //input[last()]]
+19:21:36.456 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Login']
+19:21:36.469 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Login']
+19:21:36.469 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //button[text()='Login']]
+19:21:36.509 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //button[text()='Login']]
+19:21:40.078 INFO  tests.TestBase - Assert check is alert present with error text 'Wrong email or password'
+19:21:40.086 INFO  tests.TestBase - Name of method -->registrationWrongPassword
+19:21:40.086 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+19:21:45.131 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+19:21:45.131 INFO  manager.ApplicationManager - Before find element:By.xpath: //*[@href='/login']
+19:21:45.172 INFO  manager.ApplicationManager - element found success:By.xpath: //*[@href='/login']
+19:21:45.172 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //*[@href='/login']]
+19:21:45.240 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //*[@href='/login']]
+19:21:45.241 INFO  manager.ApplicationManager - Before find element:By.name: email
+19:21:45.265 INFO  manager.ApplicationManager - element found success:By.name: email
+19:21:45.265 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> name: email]
+19:21:45.357 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> name: email]
+19:21:45.663 INFO  manager.ApplicationManager - Before find element:By.name: password
+19:21:45.701 INFO  manager.ApplicationManager - element found success:By.name: password
+19:21:45.703 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> name: password]
+19:21:45.757 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> name: password]
+19:21:45.985 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Registration']
+19:21:46.022 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Registration']
+19:21:46.022 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //button[text()='Registration']]
+19:21:46.084 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //button[text()='Registration']]
+19:21:48.621 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Sign Out']
+19:21:53.670 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Sign Out']
+19:21:53.670 INFO  manager.ApplicationManager - Before find element:By.cssSelector: a[href='/login']
+19:21:53.702 INFO  manager.ApplicationManager - element found success:By.cssSelector: a[href='/login']
+19:21:53.702 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: a[href='/login']]
+19:21:53.778 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: a[href='/login']]
+19:21:53.778 INFO  manager.ApplicationManager - Before find element:By.name: email
+19:21:53.810 INFO  manager.ApplicationManager - element found success:By.name: email
+19:21:53.810 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> name: email]
+19:21:53.898 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> name: email]
+19:21:54.210 INFO  manager.ApplicationManager - Before find element:By.xpath: //input[last()]
+19:21:54.234 INFO  manager.ApplicationManager - element found success:By.xpath: //input[last()]
+19:21:54.234 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //input[last()]]
+19:21:54.310 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //input[last()]]
+19:21:54.600 INFO  manager.ApplicationManager - Before find element:By.xpath: //button[text()='Login']
+19:21:54.616 INFO  manager.ApplicationManager - element found success:By.xpath: //button[text()='Login']
+19:21:54.616 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //button[text()='Login']]
+19:21:54.692 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> xpath: //button[text()='Login']]
+19:21:54.692 INFO  tests.TestBase - Name of method -->addContactSuccessReqFields
+19:21:54.696 INFO  manager.ApplicationManager - Before find element:By.cssSelector: a[href='/add']
+19:21:55.005 INFO  manager.ApplicationManager - element found success:By.cssSelector: a[href='/add']
+19:21:55.009 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: a[href='/add']]
+19:21:55.161 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: a[href='/add']]
+19:21:55.161 INFO  manager.ApplicationManager - Before find element:By.cssSelector: [placeholder='Name']
+19:21:55.201 INFO  manager.ApplicationManager - element found success:By.cssSelector: [placeholder='Name']
+19:21:55.201 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='Name']]
+19:21:55.304 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='Name']]
+19:21:55.539 INFO  manager.ApplicationManager - Before find element:By.cssSelector: [placeholder='Last Name']
+19:21:55.559 INFO  manager.ApplicationManager - element found success:By.cssSelector: [placeholder='Last Name']
+19:21:55.559 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='Last Name']]
+19:21:55.627 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='Last Name']]
+19:21:55.861 INFO  manager.ApplicationManager - Before find element:By.cssSelector: [placeholder='Phone']
+19:21:55.880 INFO  manager.ApplicationManager - element found success:By.cssSelector: [placeholder='Phone']
+19:21:55.880 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='Phone']]
+19:21:55.969 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='Phone']]
+19:21:56.188 INFO  manager.ApplicationManager - Before find element:By.cssSelector: [placeholder='email']
+19:21:56.204 INFO  manager.ApplicationManager - element found success:By.cssSelector: [placeholder='email']
+19:21:56.204 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='email']]
+19:21:56.286 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='email']]
+19:21:56.540 INFO  manager.ApplicationManager - Before find element:By.cssSelector: [placeholder='Address']
+19:21:56.557 INFO  manager.ApplicationManager - element found success:By.cssSelector: [placeholder='Address']
+19:21:56.557 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='Address']]
+19:21:56.599 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='Address']]
+19:21:56.796 INFO  manager.ApplicationManager - Before find element:By.cssSelector: [placeholder='description']
+19:21:56.829 INFO  manager.ApplicationManager - element found success:By.cssSelector: [placeholder='description']
+19:21:56.829 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='description']]
+19:21:56.900 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: [placeholder='description']]
+19:21:57.555 INFO  manager.ApplicationManager - Before find element:By.cssSelector: .add_form__2rsm2>button
+19:21:57.592 INFO  manager.ApplicationManager - element found success:By.cssSelector: .add_form__2rsm2>button
+19:21:57.592 INFO  manager.ApplicationManager - start method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: .add_form__2rsm2>button]
+19:21:57.656 INFO  manager.ApplicationManager - done method click [[ChromeDriver: chrome on WINDOWS (923edb89f612be572eb266946d2f9c18)] -> css selector: .add_form__2rsm2>button]
+19:21:58.163 INFO  manager.ApplicationManager - Before find element:By.cssSelector: h2
+19:21:58.262 INFO  manager.ApplicationManager - element found success:By.cssSelector: h2
+19:21:58.285 INFO  manager.ApplicationManager - get text from the element with text:Harry1901
+19:21:58.297 INFO  manager.ApplicationManager - got the text successful
+19:21:58.313 INFO  manager.ApplicationManager - get text from the element with text:Harry1084
+19:21:58.329 INFO  manager.ApplicationManager - got the text successful
+19:21:58.345 INFO  manager.ApplicationManager - get text from the element with text:Tony
+19:21:58.357 INFO  manager.ApplicationManager - got the text successful
+19:21:58.357 INFO  manager.ApplicationManager - Before find element:By.cssSelector: h3
+19:21:58.393 INFO  manager.ApplicationManager - element found success:By.cssSelector: h3
+19:21:58.409 INFO  manager.ApplicationManager - get text from the element with text:5556667771901
+19:21:58.422 INFO  manager.ApplicationManager - got the text successful
+19:21:58.434 INFO  manager.ApplicationManager - get text from the element with text:5556667771084
+19:21:58.446 INFO  manager.ApplicationManager - got the text successful
+19:21:58.462 INFO  manager.ApplicationManager - get text from the element with text:656565651314
+19:21:58.475 INFO  manager.ApplicationManager - got the text successful
